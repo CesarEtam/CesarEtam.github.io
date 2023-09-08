@@ -2,264 +2,29 @@
 <html lang="pt-br">
     
     <head>
+
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="description" content="Pertifolio do Criador César Etã Cardoso de Almeida"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Desenvolvedor JR</title>
+        
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-        <title>Desenvolvedor JR</title>
+        
         <link rel="icon" type="image/png" href="https://png.pngtree.com/element_our/png_detail/20181013/code-icon-design-vector-png_125856.jpg"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="_css/main.css"/>
-        <style>
-            .fa {
-                padding: 12px;
-                font-size: 24px;
-                width: 24px;
-                text-align: center;
-                text-decoration: none;
-                margin: 5px 2px;
-                border-radius: 50%;
-                background-color: black;
-            }
-
-            .fa:hover {
-                opacity: 0.8;
-            }
-
-            .fa-facebook {
-                background: #3B5998;
-                color: white;
-            }
-
-            .fa-linkedin {
-                background: #007bb5;
-                color: white;
-            }
-
-            .fa-instagram {
-                background: #125688;
-                color: white;
-            }
-
-            .fa-reddit {
-                background: #ff5700;
-                color: white;
-            }
-
-            .fa-whatsapp {
-                background: #34af23;
-                color: white;
-            }
-            /* BOTTOM */
-
-            .glowb {
-                position: absolute;
-                align-content: center;
-                background: linear-gradient(to right, #56ccf2, #2f80ed);
-                border: 0.1px;
-                left: 0;
-                right: 0;
-                top: 99.7%;
-                bottom: 0;
-            }
-
-            .glowb::before,
-            .glowb::after {
-                content: '';
-                position: absolute;
-                background: linear-gradient(to right, #56ccf2, #2f80ed);
-                transition: all .7s ease-in-out;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-            }
-
-            .glowb::before {
-                filter: blur(5px);
-            }
-
-            .glowb::after {
-                filter: blur(15px);
-            }
-
-            .glowb {
-                animation: hue 10s linear infinite;
-            }
-
-            /* TOP */
-
-            .glowt {
-                position: absolute;
-                align-content: center;
-                background: linear-gradient(to right, #56ccf2, #2f80ed);
-                border: 0.1px;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 99.7%;
-            }
-
-            .glowt::before,
-            .glowt::after {
-                content: '';
-                position: absolute;
-                background: linear-gradient(to right, #56ccf2, #2f80ed);
-                transition: all .7s ease-in-out;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-            }
-
-            .glowt::before {
-                filter: blur(5px);
-            }
-
-            .glowt::after {
-                filter: blur(15px);
-            }
-
-            .glowt {
-                animation: hue 10s linear infinite;
-            }
-
-            @keyframes hue {
-                0% {
-                    filter: hue-rotate(0deg);
-                }
-                100% {
-                    filter: hue-rotate(360deg);
-                }
-            }
-
-            /* HTML */
-
-            html {
-                display: flex;
-                min-height: 100vh;
-                flex-direction: column;
-                -webkit-font-smoothing: antialiased;
-            }
-
-            /* Corpo */
-
-            body, footer {
-                font-family: Arial, Helvetica, sans-serif;
-                margin: 0 auto;
-                max-width: 800px;
-                padding: 2em 2em 4em;
-            }
-
-
-            /* Redes Sociais */
-
-            nav#RedesSociais {
-                display: block;
-            }
-
-            nav#RedesSociais ul {
-                list-style: none;
-                position: absolute;
-                bottom: 250px;
-                right: 20px;
-            }
-
-            /* Menu */
-
-            div#Menu {
-                position: absolute;
-                font-size: 14px;
-                left: -40px;
-                top: 0px;
-                bottom: 0px;
-                width: 175px;
-                height: all;
-                color: snow;
-                padding: 30px 10px
-            }
-
-            div#Menu li {
-                background-color: dimgray;
-                border-radius: 10px;
-                padding: 10px;
-                margin: 2px;
-            }
-
-            div#Menu li:hover {
-                cursor:pointer;
-                background-color: black;
-                transition: 1s;
-            }
-
-            div#Menu a {
-                text-decoration: none;
-            }
-
-            div#Menu a:hover {
-                color: snow;
-            }
-
-            div#Menu ul {
-                list-style: none;
-                text-transform: uppercase;
-            }
-
-            /* Paragrafos e header */
-
-            div#Texto {
-                color: floralwhite;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 16px;
-                text-align: justify;
-                text-shadow: 0.1em 0.1em 0.2em black;
-                line-height: 1.25;
-                margin: 0 auto;
-            }
-
-            /* Paragrafos e header */
-
-            h1, h2 {
-                font-weight: 600;
-                line-height: 1.3;
-            }
-
-            h3 {
-                display: none;
-            }
-
-            h2 {
-                margin-top: 1.3em;
-            }
-
-            p {
-                text-align: justify;
-                text-indent: 50px;
-            }
-
-            a {
-                color: lightgray;
-            }
-
-            b, strong {
-                font-weight: 600;
-            }
-
-            samp {
-                display: none;
-            }
-
-            /* Div */
-
-            div#conteudo {
-                position: relative;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="_css/main.css"/>
+    
     </head>
 
+    <!--
+        Body
+    -->
+
     <body>
+
         <!--
             Links para contato e Redes Sociais
         -->
@@ -281,39 +46,43 @@
         <div id="Menu">
             <h3>Menu</h3>
             <ul>
-                <li onClick='carregar("apresentacao.html");'>Pagina inicial</li>
-                <li onClick="carregar('CSS3.html');">CSS3</li>
-                <li onClick="carregar('JavaScript.html');">JavaScript</li>
-                <li onClick="carregar('SQL.html');">SQL</li>
+                <li onClick="$('#conteudo').load('apresentacao.html')">Pagina inicial</li>
+                <li onClick="$('#conteudo').load('css.html')">CSS3</li>
+                <li onClick="$('#conteudo').load('javascript.html')">JavaScript</li>
+                <li onClick="$('#conteudo').load('sql.html')">SQL</li>
             </ul>    
         </div>
+
         <div id="conteudo"></div>
+        
         <!--
             Arquivos JS
         -->
+
         <script>
-            function carregar(pagina) {
-                $("#conteudo").load(pagina);
-            }
-
-            const options = {
-                time: '0.5s', // default: '0.3s'
-                mixColor: '#fff', // default: '#fff'
-                backgroundColor: '#fff',  // default: '#fff'
-                buttonColorDark: '#100f2c',  // default: '#100f2c'
-                buttonColorLight: '#fff', // default: '#fff'
-                saveInCookies: false, // default: true,
-                label: '🌓', // default: ''
-                autoMatchOsTheme: true // default: true
-            }
-
-            const darkmode = new Darkmode(options)
-            window.addEventListener('load', darkmode.showWidget())
+        const darkmode = new Darkmode({
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        })
+        window.addEventListener('load', darkmode.showWidget())
         </script>
+
     </body>
+
+    <!--
+        Footer
+    -->
+
     <footer>
-        <div>Desenvolvido por César Etã</div>
+        <div class="dev">Desenvolvido por César Etã</div>
         <div class="glowb"></div>
         <div class="glowt"></div>
     </footer>
+
 </html>
