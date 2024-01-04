@@ -45,7 +45,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Sempre disponível e com muitas ideias construtivas e inovadoras para melhorar os processos internos das equipes de operações. Entregando os projetos dentro do prazo estipulado.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— Sempre disponível, com muitas ideias construtivas e inovadoras para melhorar os processos internos das equipes de operações. Entregando os projetos dentro do prazo estipulado.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Jéssica Pinel</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/jessicapinel/">Coordenadora</a>
               </div>
@@ -61,7 +61,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Mais um depoimento.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— O talento excepcional e a dedicação incansável do profissional de desenvolvimento de software que conheci são verdadeiramente inspiradores. Sua habilidade em transformar ideias em códigos brilhantes é incomparável, proporcionando soluções inovadoras que elevam nossos projetos a um patamar superior. Um verdadeiro mestre da programação!</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Thompson Neto</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/thompson-neto/">Coordenador</a>
               </div>
