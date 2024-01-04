@@ -6,8 +6,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Soft Skills no meu desenvolvimento profissional</h2>
-            <p className="text-xl text-gray-400">Sempre em busca de aperfeiçoamento nestas skills, buscando o melhor ambiente colaborativo.</p>
+            <h2 className="h2 mb-4">Soft Skills</h2>
+            <p className="text-xl text-gray-400">Sempre em busca de aperfeiçoamento nestas skills, visando o melhor ambiente colaborativo.</p>
           </div>
 
           {/* Items */}
