@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Portifolio - César Etã',
+  description: 'Portifolio de um projeto em NextJS',
 }
 
 import Hero from '@/components/hero'
