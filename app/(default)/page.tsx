@@ -16,7 +16,7 @@ export default function Home() {
       <Features />
       <Zigzag />
       <Testimonials />
-      <Newsletter />
+      {/* Remoção da Newsletter <Newsletter /> */}
     </>
   )
 }
